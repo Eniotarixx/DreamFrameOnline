@@ -25,7 +25,7 @@ captureButton.addEventListener("click", () => {
 
   // Disable the button and show loading text
   captureButton.disabled = true;
-  captureButton.innerText = "⏳ Processing...";
+  captureButton.innerText = "Processing...";
 
   // Draw the current video frame on the hidden canvas
   const ctx = canvas.getContext("2d");
@@ -56,6 +56,6 @@ captureButton.addEventListener("click", () => {
   })
   .finally(() => {
     captureButton.disabled = false;
-    captureButton.innerText = "📸 Capture";
+    captureButton.innerText = "Capture";
   });
 });
