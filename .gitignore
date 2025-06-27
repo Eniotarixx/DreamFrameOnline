@@ -1,0 +1,7 @@
+model/*.pth
+*jpeg 
+*png
+*pt
+output/*png
+output/*jpeg
+
